@@ -1,4 +1,5 @@
 """Prompt construction for grounded RAG generation."""
+
 from __future__ import annotations
 
 from typing import Any

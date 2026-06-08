@@ -1,4 +1,5 @@
 """CLI: ask a question and get a generated, cited answer."""
+
 from __future__ import annotations
 
 import argparse

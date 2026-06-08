@@ -1,4 +1,5 @@
 """CLI: run a single query against the retriever and print the assembled prompt."""
+
 from __future__ import annotations
 
 import argparse

@@ -1,4 +1,5 @@
 """PubMed RAG: domain-specific retrieval-augmented generation over RCT abstracts."""
+
 import os
 
 # Tame OpenMP / threading conflicts between FAISS and PyTorch on macOS.

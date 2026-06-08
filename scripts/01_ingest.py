@@ -1,4 +1,5 @@
 """CLI: parse raw PubMed RCT .txt files into JSONL."""
+
 from __future__ import annotations
 
 import argparse

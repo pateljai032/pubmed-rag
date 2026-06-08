@@ -1,4 +1,5 @@
 """Tests for the API module — route registration and schema validation."""
+
 from __future__ import annotations
 
 from pubmed_rag.api import app

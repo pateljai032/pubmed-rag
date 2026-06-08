@@ -1,4 +1,5 @@
 """FastAPI service exposing the RAG pipeline as HTTP endpoints."""
+
 from __future__ import annotations
 
 import os

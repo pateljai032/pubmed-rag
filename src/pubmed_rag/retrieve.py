@@ -1,4 +1,5 @@
 """Retriever: combines FAISS index + embedder + metadata for query-driven search."""
+
 from __future__ import annotations
 
 from pathlib import Path
@@ -38,7 +39,7 @@ class Retriever:
         artifacts_dir: Path,
         abstracts_path: Path,
         embedder: Embedder,
-    ) -> "Retriever":
+    ) -> Retriever:
         """Build a Retriever from on-disk artifacts."""
         index = load_index(artifacts_dir / "abstracts.faiss")
         abstracts = load_jsonl(abstracts_path)

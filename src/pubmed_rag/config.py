@@ -1,4 +1,5 @@
 """Typed configuration loaded from YAML."""
+
 from __future__ import annotations
 
 from pathlib import Path
@@ -40,7 +41,7 @@ class Config(BaseModel):
     generation: GenerationConfig
 
     @classmethod
-    def load(cls, path: str | Path) -> "Config":
+    def load(cls, path: str | Path) -> Config:
         """Load and validate config from a YAML file."""
         with open(path) as f:
             raw = yaml.safe_load(f)

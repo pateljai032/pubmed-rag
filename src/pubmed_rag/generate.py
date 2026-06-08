@@ -1,4 +1,5 @@
 """LLM generator: local (HuggingFace) and API (OpenAI-compatible) backends."""
+
 from __future__ import annotations
 
 import torch

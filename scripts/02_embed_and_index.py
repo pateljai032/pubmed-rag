@@ -1,4 +1,5 @@
 """CLI: embed abstracts and build the FAISS index."""
+
 from __future__ import annotations
 
 import argparse

@@ -1,4 +1,5 @@
 """Tests for the prompt module."""
+
 from __future__ import annotations
 
 from pubmed_rag.prompt import SYSTEM_PROMPT, build_context_block, build_rag_prompt

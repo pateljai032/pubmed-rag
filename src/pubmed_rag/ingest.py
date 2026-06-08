@@ -1,4 +1,5 @@
 """Parse PubMed 200k RCT text files into structured JSONL records."""
+
 from __future__ import annotations
 
 import json
@@ -38,9 +39,7 @@ def parse_pubmed_rct(filepath: Path) -> list[dict[str, Any]]:
 
             if current is not None and "\t" in line:
                 label, text = line.split("\t", 1)
-                current["sentences"].append(
-                    {"label": label.strip(), "text": text.strip()}
-                )
+                current["sentences"].append({"label": label.strip(), "text": text.strip()})
 
     if current is not None:
         abstracts.append(_finalize(current))

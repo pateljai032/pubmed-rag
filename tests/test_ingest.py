@@ -1,4 +1,5 @@
 """Tests for the ingest module."""
+
 from __future__ import annotations
 
 from pubmed_rag.ingest import parse_pubmed_rct
