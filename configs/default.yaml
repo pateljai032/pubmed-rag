@@ -1,0 +1,21 @@
+paths:
+  data_dir: data
+  artifacts_dir: artifacts
+  raw_train: data/PubMed_20k_RCT/train.txt
+  raw_dev: data/PubMed_20k_RCT/dev.txt
+  raw_test: data/PubMed_20k_RCT/test.txt
+
+embedding:
+  model_id: pritamdeka/S-PubMedBert-MS-MARCO
+  batch_size: 32
+  normalize: true
+
+retrieval:
+  k: 5
+
+generation:
+  backend: api
+  model_id: llama-3.3-70b-versatile
+  api_base_url: https://api.groq.com/openai/v1
+  max_new_tokens: 600
+  do_sample: false
