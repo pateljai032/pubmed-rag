@@ -1,5 +1,5 @@
 # PubMed RAG
-![CI](https://github.com/pateljai032/pubmed-rag/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/pateljai032/pubmed-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/pateljai032/pubmed-rag/actions/workflows/ci.yml)
 
 A production-grade retrieval-augmented generation system over **15,000 randomized controlled trial abstracts** from the PubMed 200k RCT dataset. Uses domain-tuned biomedical embeddings, FAISS retrieval, and a grounded generation prompt with explicit refusal behavior.
 
