@@ -140,6 +140,7 @@ pubmed-rag/
 - **No formal evaluation set** — qualitative testing only. A labeled Q&A set with PMID ground truth would enable Recall@k and faithfulness metrics.
 - **English-only**, RCT-only corpus — generalizing to the full PubMed 200k or other biomedical text would require larger indexes (IVF or HNSW).
 - **No streaming** — `/ask` returns the full response after generation. Streaming via Server-Sent Events would improve perceived latency.
+- **Adding Guardrails** 
 
 ## License
 
