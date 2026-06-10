@@ -1,9 +1,9 @@
 paths:
   data_dir: data
   artifacts_dir: artifacts
-  raw_train: data/PubMed_20k_RCT/train.txt
-  raw_dev: data/PubMed_20k_RCT/dev.txt
-  raw_test: data/PubMed_20k_RCT/test.txt
+  raw_train: data/PubMed_200k_RCT/train.txt
+  raw_dev: data/PubMed_200k_RCT/dev.txt
+  raw_test: data/PubMed_200k_RCT/test.txt
 
 embedding:
   model_id: pritamdeka/S-PubMedBert-MS-MARCO
