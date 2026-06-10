@@ -1,7 +1,7 @@
 # PubMed RAG
 [![CI](https://github.com/pateljai032/pubmed-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/pateljai032/pubmed-rag/actions/workflows/ci.yml)
 
-A production-grade retrieval-augmented generation system over **15,000 randomized controlled trial abstracts** from the PubMed 200k RCT dataset. Uses domain-tuned biomedical embeddings, FAISS retrieval, and a grounded generation prompt with explicit refusal behavior.
+A production-grade retrieval-augmented generation system over **15,000 randomized controlled trial abstracts, then changed it 1.5 million** from the PubMed 200k RCT dataset. Uses domain-tuned biomedical embeddings, FAISS retrieval, and a grounded generation prompt with explicit refusal behavior.
 
 Returns answers with inline citations to source PMIDs. Designed to refuse rather than hallucinate when the corpus doesn't contain enough information.
 
@@ -140,7 +140,7 @@ pubmed-rag/
 - **No formal evaluation set** — qualitative testing only. A labeled Q&A set with PMID ground truth would enable Recall@k and faithfulness metrics.
 - **English-only**, RCT-only corpus — generalizing to the full PubMed 200k or other biomedical text would require larger indexes (IVF or HNSW).
 - **No streaming** — `/ask` returns the full response after generation. Streaming via Server-Sent Events would improve perceived latency.
-- **Adding Guardrails** 
+- **Adding Guardrails** ß
 
 ## License
 
